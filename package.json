@@ -1,0 +1,22 @@
+{
+  "name": "kaptajn-knogle",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs --production",
+    "build": "vite build",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.22"
+  },
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.0.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "vite": "^6.4.5"
+  }
+}
